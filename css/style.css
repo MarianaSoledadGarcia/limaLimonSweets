@@ -139,7 +139,8 @@ footer div span {
 }
 
 .imagenPrincipal{
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*class en mi sección Quién Soy*/
