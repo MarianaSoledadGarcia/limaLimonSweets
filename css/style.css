@@ -138,10 +138,8 @@ footer div span {
     line-height: 15px;
 }
 
-.videoPrincipal {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
+.imagenPrincipal{
+    align-items: center;
 }
 
 /*class en mi sección Quién Soy*/
