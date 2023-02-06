@@ -19,7 +19,7 @@ body {
 header {
     padding: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(206, 255, 127);
     align-items: center;
     width: 100%;
@@ -59,7 +59,7 @@ header nav ul li a {
 
 main h1 {
     color: chartreuse;
-    text-align: left;
+    text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 52px;
     text-shadow: 4px 2px deeppink;
