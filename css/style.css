@@ -58,7 +58,7 @@ header nav ul li a {
 /*estilos del main*/
 
 main h1 {
-    color: chartreuse;
+    color: rgb(206, 255, 127);
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-size: 52px;
@@ -67,7 +67,7 @@ main h1 {
 }
 
 main {
-    background-color: rgb(252, 243, 211);
+    background-image: linear-gradient(to top, rgb(206, 255, 127) rgb(252, 243, 211));
     padding: 30px;
     font-family: 'Poppins', sans-serif;
     color: crimson;
