@@ -50,6 +50,10 @@ header nav ul li {
     font-family: 'Vibes', cursive;
 }
 
+header nav ul li:hover {
+    border-bottom: 1px solid crimson;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: crimson;
@@ -141,6 +145,12 @@ footer div span {
 .imagenPrincipal{
     display: flex;
     justify-content: center;
+    transition: 1s;
+}
+
+.imagenPrincipal:hover {
+    transform: scale(0.8);
+    transition: 1s;
 }
 
 /*class en mi sección Quién Soy*/
@@ -258,6 +268,35 @@ footer div span {
 .imagenesCupcakes, .imagenesMuffins, .imagenesBudin, .imagenesTartas, .imagenesTortasEspeciales, .imagenesTortasDeco, .imagenesCandyBar {
     display: flex;
     justify-content: space-between;
+}
+
+.imagenesCupcakes:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.imagenesMuffins:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.imagenesBudin:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} 
+.imagenesTartas:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} 
+.imagenesTortasEspeciales:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+} 
+.imagenesTortasDeco:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.imagenesCandyBar:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /*class en mi sección Contacto*/
