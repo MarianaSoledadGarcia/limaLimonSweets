@@ -86,7 +86,7 @@ main h2 {
 /*estilos del footer*/
 
 footer {
-    background-image: linear-gradient(to top, rgb(206, 255,127) rgb( 252, 243, 211));
+    background-color: rgb(206, 255, 127);
     text-align: center;
     margin-top: 50px;
     letter-spacing: 1px;
@@ -254,6 +254,11 @@ footer div span {
     color: deeppink;
 }
 
+/*imagenes*/
+.imagenesCupcakes, .imagenesMuffins, .imagenesBudin, .imagenesTartas, .imagenesTortasEspeciales, .imagenesTortasDeco, .imagenesCandyBar {
+    display: flex;
+    justify-content: space-between;
+}
 
 /*class en mi sección Contacto*/
 
