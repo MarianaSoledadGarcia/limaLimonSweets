@@ -156,11 +156,12 @@ footer div span {
 /*class en mi sección Quién Soy*/
 
 .mainQuienSoy{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 18% 65% 18%;
+    grid-template-rows: 100%;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    
 }
 
 .parrafoQuienSoy {
@@ -169,14 +170,15 @@ footer div span {
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
     margin-top: 30px;
     letter-spacing: 1px;
     line-height: 40px;
+    justify-content: center;
 }
-
+ 
 .imagenKeyLime, .imagenMujerBatidora{
-    width: 50%;
+    
+    justify-content: center;
 }
 
 
