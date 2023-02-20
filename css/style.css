@@ -275,31 +275,143 @@ footer div span {
     justify-content: space-between;
 }
 
-.imagenesCupcakes:hover {
+.cupCake01:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-.imagenesMuffins:hover {
+.cupCake02:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-.imagenesBudin:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-} 
-.imagenesTartas:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-} 
-.imagenesTortasEspeciales:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-} 
-.imagenesTortasDeco:hover {
+.cupCake03:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-.imagenesCandyBar:hover {
+.cupCake04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cupCake05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.muffins01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.muffins02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.muffins03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.muffins04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.muffins05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.budin01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.budin02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.budin03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.budin04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.budin05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tarta01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tarta02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tarta03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tarta04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tarta05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.torta01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.torta02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.torta03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.torta04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.torta05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tortasDeco01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tortasDeco02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tortasDeco03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tortasDeco04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tortasDeco05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.candy01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.candy02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.candy03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.candy04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.candy05:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
