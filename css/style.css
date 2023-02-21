@@ -158,10 +158,10 @@ footer div span {
 .mainQuienSoy{
     display: grid;
     gap: 10px;
-    grid-template-columns: 18% 65% 18%;
-    grid-template-rows: 100%;
-    justify-content: space-between;
-    
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+        
 }
 
 .parrafoQuienSoy {
@@ -171,14 +171,24 @@ footer div span {
     text-align: center;
     font-size: 24px;
     margin-top: 30px;
+    margin-bottom: 30px;
     letter-spacing: 1px;
-    line-height: 40px;
+    line-height: 70px;
     justify-content: center;
+    grid-column: span 2;
+    
 }
  
-.imagenKeyLime, .imagenMujerBatidora{
-    
-    justify-content: center;
+.imagenKeyLime{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagenMujerBatidora{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
