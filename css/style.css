@@ -148,6 +148,13 @@ footer div span {
     transition: 1s;
 }
 
+/*MQ Home*/
+@media (max-width: 768px) {
+    .imagenPrincipal {
+        width: 50%;
+    }
+}
+
 .imagenPrincipal:hover {
     transform: scale(0.8);
     transition: 1s;
@@ -190,6 +197,18 @@ footer div span {
     height: 100%;
     object-fit: cover;
 }
+
+/*MQ Quien Soy*/
+@media (max-width: 768px) {
+    .mainQuienSoy {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+
 
 
 /*class en mi sección Catálogo*/
@@ -426,6 +445,16 @@ footer div span {
     transition: 0.5s;
 }
 
+/*MQ Trabajos*/
+@media (max-width: 768px) {
+    .imagenesCupcakes, .imagenesMuffins, .imagenesBudin, .imagenesTartas, .imagenesTortasEspeciales, .imagenesTortasDeco, .imagenesCandyBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
 /*class en mi sección Contacto*/
 
 .styleForm {
@@ -448,4 +477,14 @@ footer div span {
     gap: 30px;
     align-items: center;
     justify-content: center;
+}
+
+/*MQ Contacto*/
+@media (max-width: 768px) {
+    .styleForm, .consultaMapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
 }
