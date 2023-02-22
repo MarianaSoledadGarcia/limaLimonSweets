@@ -152,6 +152,10 @@ footer div span {
 @media (max-width: 768px) {
     .imagenPrincipal {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
 }
 
