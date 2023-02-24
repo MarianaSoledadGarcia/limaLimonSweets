@@ -1,0 +1,11 @@
+@mixin tipografia ($size, $color-tipogrfia, $alineacion){
+    font-size: $size;
+    color: $color-tipogrfia;
+    text-align: $alineacion;
+}
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

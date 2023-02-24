@@ -1,0 +1,202 @@
+@import "variables/mixin";
+main{
+    .cupcakesEspeciales {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .muffins {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .budines {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .tartas {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .tortasEspeciales {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .tortasDeco {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .candyBar {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: deeppink;
+    }
+    .imagenesCupcakes, .imagenesMuffins, .imagenesBudin, .imagenesTartas, .imagenesTortasEspeciales, .imagenesTortasDeco, .imagenesCandyBar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cupCake01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .cupCake02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .cupCake03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .cupCake04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .cupCake05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .muffins01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .muffins02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .muffins03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .muffins04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .muffins05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .budin01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .budin02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .budin03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .budin04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .budin05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tarta01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tarta02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tarta03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tarta04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tarta05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .torta01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .torta02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .torta03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .torta04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .torta05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tortasDeco01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tortasDeco02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tortasDeco03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tortasDeco04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .tortasDeco05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .candy01:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .candy02:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .candy03:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .candy04:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .candy05:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    @media (max-width: 768px) {
+        .imagenesCupcakes, .imagenesMuffins, .imagenesBudin, .imagenesTartas, .imagenesTortasEspeciales, .imagenesTortasDeco, .imagenesCandyBar {
+            @include flex;
+            gap: 30px;
+        }
+    }
+}

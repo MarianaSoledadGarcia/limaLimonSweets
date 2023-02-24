@@ -1,0 +1,28 @@
+@import "variables/mixin";
+main{
+    .styleForm {
+        text-align: justify;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .styleLegend {
+        font-size: 26px;
+        text-align: center;
+        color: deeppink;
+    }
+    .consultaMapa{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    @media (max-width: 768px) {
+        .styleForm, .consultaMapa {
+            @include flex;
+            gap: 25px;
+        }
+    }
+}

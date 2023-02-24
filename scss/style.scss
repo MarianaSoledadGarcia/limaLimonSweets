@@ -1,0 +1,106 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "variables/vars";
+@import "variables/extend";
+//nesting
+body{
+    background-color: rgb(252, 243, 211)
+}
+header{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: $color-uno;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    img{
+        width: 25%;
+    }
+    h2{
+        color: deeppink;
+        font-family:'Vibes', cursive;
+    }
+    nav{
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+            color: crimson;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 25px;
+            font-family: 'Vibes', cursive;
+            }
+            li:hover{
+            border-bottom: 1px solid crimson;
+            }
+            a{
+                text-decoration: none;
+                color: crimson;
+            }
+            @extend %colortexto;
+        }    
+    }
+}
+main{
+    background-color: rgb(252, 243, 211);
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: crimson;
+    h1{
+        color: rgb(206, 255, 127);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 52px;
+        text-shadow: 4px 2px deeppink;
+    }
+    h2{
+        text-align: center;
+        color: deeppink;
+        margin-bottom: 35px;
+    }
+}
+footer{
+    background-color: $color-uno;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    h3{
+        text-align: center;
+    }
+    h4{
+        color: $color-dos;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    h5{
+        color: $color-dos;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    p{
+        color: crimson;
+        text-align: center;
+    }
+    div span{
+        color: crimson;
+    }
+    .logosRedes{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    margin-top: 10px;
+    }
+}
+@import "html/home";
+@import "html/quiensoy";
+@import "html/catalogo";
+@import "html/trabajos";
+@import "html/contacto";

@@ -1,0 +1,27 @@
+@import "variables/mixin";
+main{
+    .parrafoHome{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        line-height: 15px;
+    }
+    .imagenPrincipal{
+        display: flex;
+        justify-content: center;
+        transition: 1s;
+    }
+    @media (max-width: 768px) {
+        .imagenPrincipal {
+            width: 50%;
+            @include flex;
+         
+        }
+    }
+    .imagenPrincipal:hover{
+        transform: scale(0.8);
+        transition: 1s;
+    }
+
+}
