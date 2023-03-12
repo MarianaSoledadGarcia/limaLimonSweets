@@ -101,7 +101,7 @@ main .imagenPrincipal {
 
 @media (max-width: 768px) {
   main .imagenPrincipal {
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center; } }
@@ -133,6 +133,12 @@ main .parrafoQuienSoy {
   justify-content: center;
   grid-column: span 2; }
 
+@media (max-width: 768px) {
+  main .parrafoQuienSoy {
+    font-size: 12px;
+  }
+  
+}
 main .imagenKeyLime {
   width: 100%;
   height: 100%;
