@@ -1,6 +1,6 @@
 header nav ul li{
     @media (max-width: 768px) {
-        display: inline-flex;
+        display: flex;
         font-size: 14px;
     }
 }
